@@ -1,20 +1,55 @@
 
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=, initial-scale=1.0">
-<title>Comédia🔫</title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="reset.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Simples</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<boby>
-  
-<h1 style= "color: red;"class="titulo"> os  pecinhas 🥋 </h1>
-  <p> meu primeiro site programando</p>
-  <p> violinha</p> 
-  <P>codigo html</P>
-  <P>pc</P>
-  <p> quem leu é gay</p>
-<boby>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Bem-vindo ao meu site!</h1>
+        <p>Este é um site simples feito com HTML, CSS e JavaScript.</p>
+    </section>
+
+    <section id="about">
+        <h2>Sobre</h2>
+        <p>Este site foi criado como exemplo de uma página simples. Aqui você pode aprender como estruturar uma página básica na web.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <form id="contactForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Meu Site Simples</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
+
