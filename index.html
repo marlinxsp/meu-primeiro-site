@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marloca - Como Montar um PC</title>
+    <title>Marloca - Loja Online</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,21 +13,33 @@
             <nav>
                 <ul>
                     <li><a href="#">Início</a></li>
-                    <li><a href="#">Passo a Passo</a></li>
+                    <li><a href="#">Produtos</a></li>
                     <li><a href="#">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <section class="hero">
-            <h2>Guia Completo: Como Montar Seu PC</h2>
-            <p>Aprenda o passo a passo para montar seu computador com confiança!</p>
+        <section class="product">
+            <div class="product-details">
+                <h2>Produto em Destaque: Cadeira Gamer XYZ</h2>
+                <img src="cadeira.jpg" alt="Cadeira Gamer XYZ">
+                <p>Conforto e estilo para suas maratonas de jogos ou trabalho! A Cadeira Gamer XYZ é ergonômica, com ajuste de altura e apoio para os braços.</p>
+                <p class="price">Preço: R$ 999,90</p>
+                <button onclick="comprar()">Comprar Agora</button>
+            </div>
         </section>
-        <section class="steps">
-            <h3>Passo a Passo</h3>
-            <ol>
-                <li>
-                    <h4>Escolha as Peças</h4>
-                    <p>Pesquise e adquira os componentes
-                        <p> após conferir corretamente cada pessa, você irá seprar para a montagem</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Marloca - Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        function comprar() {
+            alert("Obrigado por escolher Marloca! Redirecionando para a página de pagamento...");
+            // Aqui você pode redirecionar para a página de checkout
+            window.location.href = "checkout.html";
+        }
+    </script>
+</body>
+</html>
