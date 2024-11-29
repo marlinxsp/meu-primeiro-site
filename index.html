@@ -1,16 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset=""UTF-8>
-    <meta name="width=device-width, initial-scale=1.0">
-    <title> teste com imagens</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Site</title>
     <style>
-        color: blue; /* cor do texto em azul */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .highlight {
+            color: green; /* Letras verdes */
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 </head>
-<boby>
-<h1>testando minha foto com imagem</h1>
-<h2> olá, sou o Marlon, tenho 14 ano este é o meu segundo site o primeiro não deu certo</h2>
-<img src="logo html.png" alt="foto html simples">
-</boby>
+<body>
+    <header>
+        <h1>Meu Primeiro Site</h1>
+    </header>
+
+    <main>
+        <h2>Bem-vindo!</h2>
+        <p>Meu nome é <span class="highlight">Marlon</span>, tenho <span class="highlight">14 anos</span> e gosto do <span class="highlight">Bolsonaro</span>.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Meu Primeiro Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
 </html>
